@@ -18,3 +18,5 @@ def about():
 # 1. initiate with FLASK_APP=web_app db init
 
 # migrate with FLASK_APP=web_app db migrate
+
+# FLASK_APP=web_app flask db upgrade

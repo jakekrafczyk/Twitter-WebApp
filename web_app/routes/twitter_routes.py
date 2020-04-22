@@ -3,7 +3,7 @@
 from flask import Blueprint, render_template, jsonify
 from web_app.models import db, User, Tweet, parse_records
 from web_app.services.twitter_service import twitter_api
-#from web_app.services.basilica_service import basilica_api_client
+from web_app.services.basilica_service import basilica_api_client
 
 twitter_routes = Blueprint("twitter_routes", __name__)
 
@@ -24,7 +24,7 @@ def get_user(screen_name=None):
     db.session.add(db_user)
     db.session.commit()
     return "OK"
-    breakpoint()
+    #breakpoint()
 
     basilica_api = basilica_api_client()
 
