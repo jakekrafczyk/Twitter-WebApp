@@ -1,7 +1,7 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: osx-64
-_ipyw_jlab_nb_ext_conf=0.1.0=py36h2fc01ae_0
+#_ipyw_jlab_nb_ext_conf=0.1.0=py36h2fc01ae_0
 alabaster=0.7.10=py36h174008c_0
 alembic=1.4.2=pypi_0
 anaconda=5.2.0=py36_3
