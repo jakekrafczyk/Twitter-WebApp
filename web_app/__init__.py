@@ -8,6 +8,7 @@ from web_app.routes.book_routes import book_routes
 from web_app.routes.twitter_routes import twitter_routes
 from web_app.routes.admin_routes import admin_routes
 from web_app.routes.stats_routes import stats_routes
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
