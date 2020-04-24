@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DATABASE_URI = os.getenv("SQLITE_URL") # TODO: read from env var
+DATABASE_URL = os.getenv("SQLITE_URL") # TODO: read from env var
 
 #DATABASE_URL = os.getenv(POSTGRES_URL)
 #SECRET_KEY = "super secret" # TODO: read from env var
